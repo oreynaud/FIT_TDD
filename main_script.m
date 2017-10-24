@@ -6,9 +6,9 @@
 load ('Fit_results_for_figures.mat');
 
 % % Alternatively, you can re-do the analysis (takes time) using:
-% script_accuracy_OGSE
-% script_accuracy_POMACE
-% script_accuracy_IMPULSED
+% script_accuracy_OGSE;
+% script_accuracy_POMACE;
+% script_accuracy_IMPULSED; % modify to change which tumor line to mimic 
 % clear all;
 % load ('Accuracy_SNR120_OGSE.mat');
 % load ('Accuracy_SNR120_POMACE.mat');
@@ -17,4 +17,5 @@ load ('Fit_results_for_figures.mat');
 % plot results using
 createfigure_TDD(parm_list_ogse) % for OGSE data
 createfigure_TDD(parm_list_pomace) % for POMACE
-createfigure_TDD(parm_list_impulsed) % for IMPULSED
+createfigure_TDD(parm_list_impulsed_DiFi) % for IMPULSED and DiFi tumor
+createfigure_TDD(parm_list_impulsed_HCT116) % for IMPULSED and HCT116 tumor
