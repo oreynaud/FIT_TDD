@@ -28,7 +28,7 @@ ylabel({'Cell radius R [um]'});
 % Create xlabel
 xlabel({'Intracellular volume fraction f'});
 % Create title
-title({'HCT116'});
+title({'Parameter accuracy'});
 
 % plot
 surf(X,Y,-h.');axis square
